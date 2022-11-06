@@ -88,6 +88,7 @@ img {
   align-items: center;
   margin-bottom: 30px;
 }
+
 .speсials-icons {
 }
 .item.list {
@@ -258,6 +259,9 @@ ul {
 .link-connection > li {
   margin-right: 50px;
 }
+.link-connection {
+  margin-left: 264px;
+}
 .site-nav > li {
   margin-right: 50px;
 }
@@ -283,7 +287,6 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  margin-left: 294px;
 }
 /* .link-connection .item.list {
   margin-right: 52px;
@@ -570,6 +573,25 @@ ul {
 .mail-link {
   margin-bottom: 9px;
 }
+.mail-icon {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+.mail-icon:hover {
+  color: var(--accent-color);
+}
+.mail-icon:hover .icon {
+  stroke: var(--accent-color);
+}
+.icon {
+  stroke: #757575;
+  fill: none;
+}
+.icon {
+  margin-right: 10px;
+}
+
 .subject-list {
   color: var(--primery-text-color);
   text-decoration: none;
